@@ -1,4 +1,4 @@
-# Campus Connect
+# CampusConnect
 
 A web application that unifies college-wide communication with hierarchy-based group access.
 
