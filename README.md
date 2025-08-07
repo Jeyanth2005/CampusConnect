@@ -60,3 +60,44 @@ Ensure the following are installed:
 ```bash
 git clone https://github.com/your-username/CampusConnect.git
 cd CampusConnect
+```
+
+#### 2. Backend Setup
+
+```bash
+cd Backend
+npm install
+```
+
+Create a `.env` file inside the `Backend` directory:
+
+```env
+NODE_ENV=development
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=a_very_secure_secret_key_for_authentication
+```
+
+Start the backend server:
+
+```bash
+npm start
+```
+
+API will be available at: `http://localhost:5000`
+
+#### 3. Frontend Setup
+
+```bash
+cd ../Frontend
+npm install
+npm start
+```
+
+Frontend will be accessible at: `http://localhost:3000`
+
+---
+
+## License
+
+This project is for educational purposes. Add a license if needed.
